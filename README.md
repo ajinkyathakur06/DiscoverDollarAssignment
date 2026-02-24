@@ -208,6 +208,71 @@ MongoDB
 -   GitHub Actions\
 -   AWS EC2
 
+
+------------------------------------------------------------------------
+
+# Screenshots
+
+## CI/CD Pipeline Execution (GitHub Actions)
+
+![CI/CD Pipeline](screenshots/ci-cd.png)
+
+Shows successful workflow run including:
+- Docker image build
+- Version tagging
+- Push to Docker Hub
+- Deployment to EC2
+
+------------------------------------------------------------------------
+
+## Docker Hub Images
+
+![Docker Hub](screenshots/dockerhub.png)
+
+Displays:
+- backend image
+- frontend image
+- versioned tags
+- latest tags
+
+------------------------------------------------------------------------
+
+## AWS EC2 Deployment
+
+![EC2 Deployment](screenshots/ec2.png)
+
+Shows:
+- Running Ubuntu EC2 instance
+- Public IP
+- Security group configuration
+
+------------------------------------------------------------------------
+
+## Running Containers (docker ps)
+
+![Docker Status](screenshots/docker_status.png)
+
+All containers running:
+- nginx
+- backend
+- frontend
+- mongodb
+
+------------------------------------------------------------------------
+
+## Application UI
+
+![Application UI 1](screenshots/app_ui.png)
+
+![Application UI 2](screenshots/app_ui1.png)
+
+![Application UI 3](screenshots/app_ui2.png)
+
+Demonstrates:
+- CRUD operations
+- Search functionality
+- Published status handling
+
 ------------------------------------------------------------------------
 
 # Author
