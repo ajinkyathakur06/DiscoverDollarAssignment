@@ -12,7 +12,7 @@ services:
       - app-network
 
   backend:
-    image: ajinkya06/discoverdollarassignment:backend
+    image: ajinkya06/discoverdollarassignment:backend-latest
     restart: always
     depends_on:
       - mongodb
@@ -20,7 +20,7 @@ services:
       - app-network
 
   frontend:
-    image: ajinkya06/discoverdollarassignment:frontend
+    image: ajinkya06/discoverdollarassignment:frontend-latest
     restart: always
     networks:
       - app-network
